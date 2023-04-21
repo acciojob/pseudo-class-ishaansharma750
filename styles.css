@@ -1,11 +1,11 @@
 /*  your css code here. If applicable */
-	div::before{
-	content:"Before Element";
+	p::before{
+	content:"Before Element ";
 	color:rgb(255,0,0);
 	font-weight:bold;
 }
-div::after{
-	content:"After Element";
+p::after{
+	content:" After Element";
 	color:rgb(255,0,0);
 	font-weight:bold;
 }
